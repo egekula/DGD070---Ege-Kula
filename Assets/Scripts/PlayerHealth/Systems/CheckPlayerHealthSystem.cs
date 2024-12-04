@@ -1,5 +1,5 @@
 using Entitas;
-using UnityEngine; // Mathf için gerekli
+using UnityEngine; 
 
 public class CheckPlayerHealthSystem : IExecuteSystem {
     private readonly GameContext _context;
