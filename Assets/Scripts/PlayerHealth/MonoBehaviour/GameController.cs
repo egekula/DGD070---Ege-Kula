@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour {
         var contexts = Contexts.sharedInstance;
 
         _systems = new Feature("Player Health Feature")
-            .Add(new PlayerHealthFeature(contexts)); // Feature'ı ekle
+            .Add(new PlayerHealthFeature(contexts)); 
 
         _systems.Initialize();
     }

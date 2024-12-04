@@ -1,6 +1,6 @@
 using Entitas;
 
-[Game] // Game context
+[Game] 
 public class PlayerHealthComponent : IComponent {
-    public float value; // Health değeri
+    public float value; 
 }

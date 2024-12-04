@@ -1,4 +1,4 @@
 using Entitas;
 
-[Game] // Game context
+[Game] 
 public class PlayerDamagedComponent : IComponent {}
